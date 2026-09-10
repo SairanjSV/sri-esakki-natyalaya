@@ -1,29 +1,36 @@
 import { academyData } from "../data/academyData";
 
+import gallery1 from "../assets/gallery-1.jpg";
+import gallery2 from "../assets/gallery-2.jpg";
+import gallery3 from "../assets/gallery-3.jpg";
+import gallery4 from "../assets/gallery-4.jpg";
+import gallery5 from "../assets/gallery-5.jpg";
+import gallery6 from "../assets/gallery-6.jpg";
+
 function Gallery() {
   const galleryImages = [
     {
-      image: "/src/assets/gallery-1.jpg",
+      image: gallery1,
       title: "Bharatanatyam Performance",
     },
     {
-      image: "/src/assets/gallery-2.jpg",
+      image: gallery2,
       title: "Students in Class",
     },
     {
-      image: "/src/assets/gallery-3.jpg",
+      image: gallery3,
       title: "Arangetram",
     },
     {
-      image: "/src/assets/gallery-4.jpg",
+      image: gallery4,
       title: "Temple Performance",
     },
     {
-      image: "/src/assets/gallery-5.jpg",
+      image: gallery5,
       title: "Cultural Program",
     },
     {
-      image: "/src/assets/gallery-6.jpg",
+      image: gallery6,
       title: "Dance Workshop",
     },
   ];
@@ -64,7 +71,8 @@ function Gallery() {
         <h3>Watch Our Performances</h3>
 
         <p>
-          Explore selected performances and dance videos on our YouTube channel.
+          Explore selected performances and dance videos on our YouTube
+          channel.
         </p>
 
         <a href={academyData.youtube} target="_blank" rel="noreferrer">
