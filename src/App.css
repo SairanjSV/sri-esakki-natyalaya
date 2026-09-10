@@ -150,11 +150,10 @@ section {
   padding: 100px 7%;
 
   background:
-    linear-gradient(
-      rgba(48, 34, 24, 0.72),
-      rgba(48, 34, 24, 0.82)
-    ),
-    url("../assets/bharatanatyam-hero.jpg");
+  linear-gradient(
+    rgba(48, 34, 24, 0.72),
+    rgba(48, 34, 24, 0.82)
+  );
 
   background-size: cover;
 
